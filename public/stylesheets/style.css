@@ -1,0 +1,72 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #edebe2;
+}
+
+a {
+  color: #ffffff;
+}
+
+#container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-interfaz {
+  background-color: #1da28d;
+  min-height: 50rem;
+}
+
+.btn-interfaz {
+  color: #ffffff;
+  background-color: #1da28d;
+}
+
+.btn-programa {
+  color: #ffffff;
+  background-color: #0091d3;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.btn-xsm {
+  font-size: 0.5rem;
+  line-height: 0.5;
+  border-radius: 4rem;
+}
+
+.btn-home {
+  min-height: 25px;
+  min-width: 230px;
+}
+
+.row-calendario {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.row-consultas {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.profile {
+  height: 200px;
+  width: 200px;
+}
+
+#reportes {
+  color: #000000;
+  background-color: #eddb58;
+}
+
+#trazadoras {
+  color: #ffffff;
+  background-color: #ff6633;
+}
+
+#informes {
+  color: #ffffff;
+  background-color: #e72b78;
+}
