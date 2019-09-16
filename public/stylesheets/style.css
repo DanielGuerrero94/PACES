@@ -20,25 +20,29 @@ a {
 
 .btn-interfaz {
   color: #ffffff;
-  background-color: #1da28d;
+  background-color: #0066c0;
 }
 
 .btn-programa {
-  color: #ffffff;
-  background-color: #0091d3;
   margin-left: 3px;
   margin-right: 3px;
 }
 
 .btn-xsm {
-  font-size: 0.5rem;
+  font-size: 1.1rem;
   line-height: 0.5;
   border-radius: 4rem;
 }
 
+.col-lg-3.programa {
+  font-size: 5rem;
+}
+
+
 .btn-home {
-  min-height: 25px;
-  min-width: 230px;
+  min-height: 65px;
+  min-width: 280px;
+  font-size: large;
 }
 
 .row-calendario {
@@ -54,6 +58,10 @@ a {
 .profile {
   height: 200px;
   width: 200px;
+}
+
+.gray-background {
+  background-color: #888c8a;
 }
 
 #reportes {

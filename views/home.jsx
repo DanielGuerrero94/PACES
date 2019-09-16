@@ -41,7 +41,7 @@ class Home extends React.Component {
 	  <div className="col col-lg-1">
 	</div>
 	  <div className="col col-lg-3">
-	    <a href="/contactos/provincias"><button type="button" className="btn btn-interfaz btn-home">Contacto Provincias</button></a>
+	    <a href="/contactos/provincias"><button type="button" className="btn btn-interfaz btn-home disabled">Contacto Provincias</button></a>
 	</div>
 	</div>
 
