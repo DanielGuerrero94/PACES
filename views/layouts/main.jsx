@@ -14,7 +14,11 @@ class MainLayout extends React.Component {
 	    {this.props.children}
 	    </div>
 	</body>
+	<script src="/public/javascripts/croppie.min.js"></script> 
+		<script src="/public/javascripts/utils.js"></script> 
+
       </html>
+
     );
   }
 }
