@@ -28,7 +28,7 @@ class Home extends React.Component {
 
 	<div className="row row-calendario justify-content-center">
 	  <div className="col col-lg-4">
-	    <a href="/calendario"><button type="button" className="btn btn-interfaz btn-home">Calendario de Eventos</button></a>
+	    <button type="button" className="btn btn-interfaz btn-home" data-toggle="modal" data-target=".bd-example-modal-sm">Calendario de Eventos</button>
 	</div>
 	</div>
 
@@ -36,12 +36,12 @@ class Home extends React.Component {
 	  <div className="col col-lg-4">
 	    </div>
 	  <div className="col col-lg-4">
-	    <a href="/consultas"><button type="button" className="btn btn-interfaz btn-home">Buzón de Consultas</button></a>
+	    <button type="button" className="btn btn-interfaz btn-home" data-toggle="modal" data-target=".bd-example-modal-sm">Buzón de Consultas</button>
 	</div>
 	  <div className="col col-lg-1">
 	</div>
 	  <div className="col col-lg-3">
-	    <a href="/contactos/provincias"><button type="button" className="btn btn-interfaz btn-home disabled">Contacto Provincias</button></a>
+	    <button type="button" className="btn btn-interfaz btn-home disabled" data-toggle="modal" data-target=".bd-example-modal-sm">Contacto Provincias</button>
 	</div>
 	</div>
 

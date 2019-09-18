@@ -14,7 +14,7 @@ a {
 }
 
 .container-interfaz {
-  background-color: #1da28d;
+  background-color: #888c8a;
   min-height: 50rem;
 }
 
@@ -22,6 +22,12 @@ a {
   color: #ffffff;
   background-color: #0066c0;
 }
+
+.card-header.mini {
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
 
 .btn-programa {
   margin-left: 3px;
@@ -63,6 +69,11 @@ a {
 .gray-background {
   background-color: #888c8a;
 }
+
+.modal-body.building {
+  padding: 0;
+}
+
 
 #reportes {
   color: #000000;
