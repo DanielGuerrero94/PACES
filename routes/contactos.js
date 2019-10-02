@@ -22,6 +22,7 @@ router.get(/.*/, function (req, res, next) {
     }
 
     consultores = JSON.parse(data)
+	console.warn(consultores)
     
     var busca = req.originalUrl.split('/')[2].toLowerCase()
 
@@ -33,6 +34,7 @@ router.get(/.*/, function (req, res, next) {
     });
 
     if(resultado.length == 0) {
+      log(JSON.stringify(resultado))  
       res.send('No hay match')
     } else if (resultado.length > 1) {
       res.send(resultado)
